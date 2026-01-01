@@ -1,0 +1,70 @@
+# Project configuration
+site_name: Vault Structure Bootstrap
+site_url: https://<YOUR_GITHUB_USERNAME>.github.io/vault-structure-bootstrap/
+site_description: 'A project to automatically deploy a standardized Vault structure.'
+repo_url: https://github.com/<YOUR_GITHUB_USERNAME>/vault-structure-bootstrap
+repo_name: 'vault-structure-bootstrap'
+edit_uri: 'edit/main/docs/'
+
+# Theme
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+# Navigation
+nav:
+  - 'Home': 'index.md'
+  - 'Vault Namespace Standard (VNS)': 'VNS.md'
+  - 'Key Acquisition Guides':
+    - 'Introduction': 'guides/index.md'
+    - 'Cloud Providers':
+      - 'AWS': 'guides/aws.md'
+      - 'Google Cloud (GCP)': 'guides/gcp.md'
+      - 'Azure': 'guides/azure.md'
+    - 'DevOps & Infrastructure':
+      - 'GitHub': 'guides/github.md'
+      - 'Terraform': 'guides/terraform.md'
+      - 'Cloudflare': 'guides/cloudflare.md'
+    - 'AI Providers':
+      - 'OpenAI': 'guides/openai.md'
+      - 'Google Vertex AI': 'guides/vertex_ai.md'
+    - 'All-in-One Guide': 'Key_Acquisition_Guide.md'
+  - 'Setup & Onboarding':
+    - 'Client Onboarding': 'Onboarding.md'
+    - 'N8N Integration': 'N8N_Integration.md'
+  - 'Integrations Reference': 'Integrations.md'
+
+# Markdown extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
