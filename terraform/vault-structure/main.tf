@@ -8,7 +8,7 @@ locals {
     for env in var.environments : [
       for client in var.clients : [
         for integration in var.integrations : [
-          for resource in var.resources :
+          for resource in var.resources[integration] :
           format("%s/%s/%s/%s", env, client, integration, resource)
         ]
       ]
