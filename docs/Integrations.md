@@ -4,15 +4,16 @@
 
 ## Cloud Providers
 
-### GCP
-- `gcp/service_account`
-- `gcp/credentials`
-- `gcp/project`
-
 ### AWS
-- `aws/access_key`
-- `aws/secret_key`
-- `aws/iam_role`
+- `aws/aws_access_key_id`
+- `aws/aws_secret_access_key`
+- `aws/iam_role_arn`
+- `aws/region`
+- `aws/session_token`
+
+### GCP
+- `gcp/service_account_key_json`
+- `gcp/project_id`
 
 ### Azure
 - `azure/client_id`
@@ -24,16 +25,16 @@
 
 ### Terraform
 - `terraform/cloud_token`
-- `terraform/backend_credentials`
 
 ### Cloudflare
 - `cloudflare/api_token`
 - `cloudflare/zone_id`
 
 ### GitHub
-- `github/token`
+- `github/personal_access_token`
 - `github/app_id`
 - `github/private_key`
+- `github/webhook_secret`
 
 ### GitLab
 - `gitlab/token`
@@ -45,8 +46,12 @@
 ## CRM / Ads / Marketing
 
 ### HubSpot
-- `hubspot/api_key`
 - `hubspot/private_app_token`
+
+### Google
+- `google/client_id`
+- `google/client_secret`
+- `google/refresh_token`
 
 ### Google Ads
 - `google_ads/developer_token`
@@ -57,10 +62,13 @@
 ### Facebook Ads
 - `facebook_ads/access_token`
 - `facebook_ads/app_secret`
+- `facebook_ads/app_id`
 
 ### TikTok Ads
 - `tiktok_ads/access_token`
 - `tiktok_ads/advertiser_id`
+- `tiktok_ads/app_id`
+- `tiktok_ads/secret`
 
 ## Communication / Messaging
 
@@ -112,7 +120,9 @@
 - `anthropic/api_key`
 
 ### Google Vertex AI
-- `vertex_ai/service_account`
+- `vertex_ai/service_account_key_json`
+- `vertex_ai/project_id`
+- `vertex_ai/region`
 
 ### HuggingFace
 - `huggingface/api_token`
