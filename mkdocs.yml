@@ -25,6 +25,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.expand  # <-- Ensures the side navigation is always expanded
+    - navigation.instant # <-- Enables instant loading
     - toc.integrate
     - navigation.top
     - search.suggest
