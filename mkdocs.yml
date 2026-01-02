@@ -23,18 +23,11 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    # --- Navigation Features ---
+    # --- Step-by-step addition ---
     - navigation.tabs
-    - navigation.tabs.sticky # This is the key change
-    - navigation.expand
-    - navigation.tracking
-    - navigation.instant
-    - navigation.top
-    # --- Other Features ---
+    - navigation.tabs.sticky # Add sticky tabs
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
     - content.code.copy
 
 # Navigation
