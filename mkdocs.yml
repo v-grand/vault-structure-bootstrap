@@ -45,11 +45,33 @@ nav:
       - 'Azure': 'guides/azure.md'
     - 'DevOps & Infrastructure':
       - 'GitHub': 'guides/github.md'
+      - 'GitLab': 'guides/gitlab.md'
       - 'Terraform': 'guides/terraform.md'
       - 'Cloudflare': 'guides/cloudflare.md'
+      - 'Docker Hub': 'guides/dockerhub.md'
+    - 'CRM, Ads & Marketing':
+      - 'HubSpot': 'guides/hubspot.md'
+      - 'Google (OAuth)': 'guides/google.md'
+      - 'Google Ads': 'guides/google_ads.md'
+      - 'Facebook Ads': 'guides/facebook_ads.md'
+      - 'TikTok Ads': 'guides/tiktok_ads.md'
+    - 'Communication & Messaging':
+      - 'Telegram': 'guides/telegram.md'
+      - 'Discord': 'guides/discord.md'
+      - 'Slack': 'guides/slack.md'
+      - 'Gmail': 'guides/gmail.md'
+    - 'Project Management':
+      - 'Jira': 'guides/jira.md'
+      - 'Linear': 'guides/linear.md'
+      - 'Notion': 'guides/notion.md'
+    - 'Payments':
+      - 'Stripe': 'guides/stripe.md'
+      - 'PayPal': 'guides/paypal.md'
     - 'AI Providers':
       - 'OpenAI': 'guides/openai.md'
       - 'Google Vertex AI': 'guides/vertex_ai.md'
+      - 'Anthropic': 'guides/anthropic.md'
+      - 'Hugging Face': 'guides/huggingface.md'
     - 'All-in-One Guide': 'Key_Acquisition_Guide.md'
   - 'Setup & Onboarding':
     - 'Client Onboarding': 'Onboarding.md'
