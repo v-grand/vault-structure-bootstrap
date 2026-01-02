@@ -23,12 +23,13 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand  # <-- Ensures the side navigation is always expanded
-    - navigation.instant # <-- Enables instant loading
-    - toc.integrate
+    # --- Navigation Features ---
+    - navigation.tabs # Top-level tabs
+    - navigation.expand # Ensure left-side navigation is always expanded
+    - navigation.tracking # Automatically track and highlight the current page
+    - navigation.instant
     - navigation.top
+    # --- Other Features ---
     - search.suggest
     - search.highlight
     - content.tabs.link
