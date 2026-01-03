@@ -1,0 +1,7 @@
+{
+  "description": "Template for a generic module's secrets",
+  "data": {
+    "module_secret_1": "<VALUE_1>",
+    "module_secret_2": "<VALUE_2>"
+  }
+}
